@@ -1,6 +1,6 @@
 # Twitch Chat Emoticons CSS Sprites Generator
 
-Enjoy ![Kappa](Kappa.png) and all his famous friends as seen on [Twitch.tv](http://twitch.tv)
+Enjoy ![Kappa](Kappa.png) and all his famous friends as seen on [Twitch.tv](http://twitch.tv) on your own website or forum.
 
 ---
 
