@@ -1,5 +1,9 @@
 # Twitch Chat Emoticons CSS Sprites Generator
 
+Enjoy ![Kappa](Kappa.png) and all his famous friends as seen on [Twitch.tv](http://twitch.tv)
+
+-----------
+
 Generates CSS Spritesheet for given Twitch Channel(s). The example here includes the spritesheet for the channel [WagamamaTV](http://twitch.tv/wagamamatv).
 
 ## Demo & Usage
