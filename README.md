@@ -2,7 +2,7 @@
 
 Enjoy ![Kappa](Kappa.png) and all his famous friends as seen on [Twitch.tv](http://twitch.tv)
 
------------
+---
 
 Generates CSS Spritesheet for given Twitch Channel(s). The example here includes the spritesheet for the channel [WagamamaTV](http://twitch.tv/wagamamatv).
 
@@ -53,6 +53,6 @@ node generate.js myusername
 node generate.js -ns myuser1 myuser2
 ```
 
-----------
+---
 
 Images are property of Twitch.
