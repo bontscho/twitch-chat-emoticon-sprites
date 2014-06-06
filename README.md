@@ -13,6 +13,8 @@ Usage:
 <i class="twitch BibleThump"></i>
 ```
 
+To use it on your website, just copy the `assets` folder (after you generated your wanted twitch channel emotes) and link to the stylesheet.
+
 ## Dependencies
 
 * ImageMagick
@@ -23,15 +25,15 @@ on Ubuntu: `sudo apt-get install imagemagick`
 
 `npm install`
 
-## Generate Usage
+## Generator Usage
 
-`node generate.js [-gns] [channel1, channel2, ...]`
+`node generate.js [-gns] [channel1[, channel2, ...]]`
 
 ### Options
 
-* `g` (global): Reads global emoticons (over 9000! _NOT_ recommended, this can take hours and the spritesheet is 15.5MB!)
-* `n` (no-cleanup): Keeps downloaded Images
-* `s` (showcase): Generates showcase.html with all images
+* `g` (global): Reads global emoticons (over 9000! __NOT__ recommended, this can take hours and the spritesheet is 15.5MB!)
+* `n` (no-cleanup): Keeps downloaded Images in `tmp` folder
+* `s` (showcase): Generates `showcase.html` with all images and their respective CSS classes
 
 ## Examples
 
@@ -45,6 +47,7 @@ node generate.js myusername
 
 ```
 node generate.js -ns myuser1 myuser2
+```
 
 ----------
 
