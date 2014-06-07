@@ -31,7 +31,7 @@ on Ubuntu: `sudo apt-get install imagemagick`
 
 ## Generator Usage
 
-`node generate.js [-gns] [channel1[, channel2, ...]]`
+`node generate.js [-gns] [channel1[ channel2 [...]]]`
 
 ### Options
 
@@ -52,6 +52,10 @@ node generate.js myusername
 ```
 node generate.js -ns myuser1 myuser2
 ```
+
+## Note
+
+Smileys from expressions that are not CSS class-name valid will be renamed to `smiley-1,2,3,...`.
 
 ---
 
